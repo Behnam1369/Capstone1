@@ -91,17 +91,16 @@ if (program !== null) {
   data.program.map((el) => {
     const programItem = document.createElement('div');
     programItem.classList.add('program-item');
-    programItem.innerHTML =
-      `<img src="images/` + el.img + `" />
-        <h3>`+ el.title + `</h3>
-        <p>`+ el.description + `</p>`;
+    programItem.innerHTML = `<img src="images/${el.img}" />
+        <h3>${el.title}</h3>
+        <p>${el.description}</p>`;
     program.appendChild(programItem);
+    return null;
   });
   const btnBook = document.createElement('button');
   btnBook.innerHTML = 'Book your ticket now';
   program.appendChild(btnBook);
 }
-
 
 const testimonial = document.getElementById('testimonial');
 if (testimonial !== null) {
@@ -111,17 +110,17 @@ if (testimonial !== null) {
     if (i > 1) {
       quote.classList.add('hidden');
     }
-    quote.innerHTML =
-      `<div class="img-container">
-          <img src="images/`+ el.img + `">
+    quote.innerHTML = `<div class="img-container">
+          <img src="images/${el.img}">
       </div>
       <div class="quoter">
-        <h3>`+ el.name + `</h3>
-        <h4>`+ el.title + `</h4>
+        <h3>${el.name}</h3>
+        <h4>${el.title}</h4>
         <span class="devider"></span>
-        <p>`+ el.quote + `</p>
+        <p>${el.quote}</p>
       </div>`;
     testimonial.appendChild(quote);
+    return null;
   });
   const btnMore = document.createElement('button');
   btnMore.innerHTML = 'MORE <i class=\'fa fa-chevron-down\'></i>';
@@ -132,12 +131,14 @@ if (testimonial !== null) {
       Array.from(document.querySelectorAll('.quote.hidden')).map((el) => {
         el.classList.remove('hidden');
         el.classList.add('visible');
+        return null;
       });
     } else {
       btnMore.innerHTML = 'MORE <i class=\'fa fa-chevron-down\'></i>';
       Array.from(document.querySelectorAll('.quote.visible')).map((el) => {
         el.classList.remove('visible');
         el.classList.add('hidden');
+        return null;
       });
     }
   });
@@ -148,9 +149,9 @@ const sponsers = document.querySelector('#sponsers>ul');
 if (sponsers != null) {
   data.sponsers.map((el) => {
     const sponser = document.createElement('li');
-    sponser.innerHTML =
-      `<a href="` + el.link + `"><img src="images/` + el.img + `" title="` + el.title + `" /></a>`;
+    sponser.innerHTML = `<a href="${el.link}"><img src="images/${el.img}" title="${el.title}" /></a>`;
     sponsers.appendChild(sponser);
+    return null;
   });
 }
 
@@ -171,6 +172,7 @@ menuIcon.addEventListener('click', () => {
       closeMenu.remove();
       page.style.overflow = 'auto';
     });
+    return null;
   });
   menu.appendChild(closeMenu);
 });

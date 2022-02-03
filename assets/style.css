@@ -90,7 +90,7 @@ header h4 {
 
 header.index .bg1 {
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 header.index h1 {
@@ -149,14 +149,14 @@ nav .fa-bars {
     position: fixed;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: #ffffffd3;
     width: 100%;
     height: 100%;
@@ -165,21 +165,25 @@ nav .fa-bars {
     margin: 0;
     padding: 0;
     -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     z-index: 1;
   }
+
   nav ul li > a {
     font-size: 6vw;
   }
+
   nav ul li.logo {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
   }
+
   nav ul li.logo img {
     width: 80px;
     height: 80px;
   }
+
   nav ul li.closeMenu {
     position: absolute;
     right: 32px;
@@ -188,6 +192,7 @@ nav .fa-bars {
     height: 32px;
     opacity: 0.8;
   }
+
   nav ul li.closeMenu::before,
   nav ul .closeMenu::after {
     position: absolute;
@@ -197,13 +202,15 @@ nav .fa-bars {
     width: 2px;
     background-color: #ec5242;
   }
+
   nav ul li.closeMenu::before {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
+
   nav ul li.closeMenu::after {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
 
@@ -223,8 +230,8 @@ nav .fa-bars {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 15%;
@@ -252,11 +259,11 @@ footer {
   display: flex;
   background-color: #fff;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   font-family: Cocogoose, sans-serif;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   padding: 30px;
   color: #272a31;
 }
@@ -264,11 +271,11 @@ footer {
 footer div {
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   font-size: 3vw;
 }
 
@@ -301,24 +308,24 @@ header.about h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-top: solid 1px #d3d3d3;
   border-bottom: solid 1px #d3d3d3;
   padding-top: 3vw;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #logo h2 {
   font-family: Lato, sans-serif;
   font-size: 5vw;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
 }
@@ -340,11 +347,11 @@ header.about h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #video h2 {
@@ -352,7 +359,7 @@ header.about h4 {
   font-family: Lato, sans-serif;
   font-size: 5vw;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
   margin-top: 2vw;
@@ -381,12 +388,12 @@ header.about h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding: 3vw;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #sponsers h2 {
@@ -394,7 +401,7 @@ header.about h4 {
   font-family: Lato, sans-serif;
   font-size: 5vw;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
 }
@@ -405,22 +412,22 @@ header.about h4 {
   height: 100%;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-left: 0;
   gap: 2vw;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   -webkit-filter: grayscale(1) invert(0.74118);
-          filter: grayscale(1) invert(0.74118);
+  filter: grayscale(1) invert(0.74118);
 }
 
 #sponsers ul li {
   -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  flex-basis: 30%;
   list-style: none;
 }
 
@@ -432,11 +439,11 @@ header.about h4 {
   background-image: url(../images/program-bg.jpg);
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 3vw;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #program h2 {
@@ -444,7 +451,7 @@ header.about h4 {
   font-family: Lato, sans-serif;
   font-size: 5vw;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
 }
@@ -453,14 +460,14 @@ header.about h4 {
   background-color: rgba(255, 255, 255, 0.178);
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 2vw;
   gap: 2vw;
   margin-top: 2vw;
   margin-bottom: 2vw;
   -webkit-animation: ani 0.1s linear;
-          animation: ani 0.1s linear;
+  animation: ani 0.1s linear;
 }
 
 #program .program-item img {
@@ -470,7 +477,7 @@ header.about h4 {
 
 #program .program-item h3 {
   -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  flex-basis: 30%;
   font-family: Cocogoose, sans-serif;
   font-weight: normal;
   color: #ec5242;
@@ -480,7 +487,7 @@ header.about h4 {
 
 #program .program-item p {
   -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
+  flex-basis: 70%;
   font-family: Lato, sans-serif;
   color: #d3d3d3;
   font-size: 3vw;
@@ -503,24 +510,24 @@ header.about h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-top: solid 1px #d3d3d3;
   border-bottom: solid 1px #d3d3d3;
   padding-top: 3vw;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #events h2 {
   font-family: Lato, sans-serif;
   font-size: 5vw;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
 }
@@ -529,11 +536,11 @@ header.about h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 6vw;
   gap: 3vw;
 }
@@ -580,11 +587,11 @@ header.about h4 {
   background-color: #fff;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 3vw;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #testimonial h2 {
@@ -592,7 +599,7 @@ header.about h4 {
   font-family: Lato, sans-serif;
   font-size: 5vw;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
 }
@@ -600,12 +607,12 @@ header.about h4 {
 #testimonial .quote {
   display: flex;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   padding: 2vw;
   gap: 2vw;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 #testimonial .quote div.img-container {
@@ -625,8 +632,8 @@ header.about h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 #testimonial .quote div.quoter h3 {
@@ -685,9 +692,11 @@ header.about h4 {
     padding-right: 10%;
     padding-left: 10%;
   }
+
   header #social {
     display: block;
   }
+
   header nav {
     background-color: #fff;
     position: absolute;
@@ -696,148 +705,178 @@ header.about h4 {
     height: 60px;
     width: 100%;
   }
+
   header nav i.fa-bars {
     display: none;
   }
+
   header nav ul {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     gap: 3vw;
     padding-right: 15%;
     padding-left: 15%;
     margin: 0;
     height: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   header nav ul li {
     list-style: none;
     margin: 0;
   }
+
   header nav ul li.logo {
     margin-right: auto;
   }
+
   header nav ul li.logo img {
     width: 40px;
     height: 40px;
   }
+
   header h1 {
     max-width: 72%;
   }
+
   header h2 {
     margin-top: 23vw;
     max-width: 72%;
   }
+
   header p {
     font-size: 1.5vw;
     max-width: 60%;
     line-height: 3vw;
   }
+
   header h3 {
     font-weight: bold;
     font-size: 3vw;
   }
+
   header h4 {
     font-size: 2vw !important;
     max-width: 72%;
   }
+
   header .bg1-overlay {
     background-image: url("/images/desktop-bg1.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7ba), color-stop(50%, #f7f7f7));
     background-image: url("/images/desktop-bg1.png"), linear-gradient(to bottom, #f7f7f7ba, #f7f7f7 50%);
     background-repeat: repeat;
     background-size: contain;
   }
+
   header.about .bg1 {
     width: 80%;
     padding: 10%;
     padding-top: 20%;
   }
+
   #logo p {
     font-size: 2vw;
   }
+
   #sponsers ul li {
     -ms-flex-preferred-size: 18%;
-        flex-basis: 18%;
+    flex-basis: 18%;
   }
+
   #program {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     gap: 5px;
   }
+
   #program span.hr {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: calc(50% - 15px);
     margin-right: calc(50% - 15px);
   }
+
   #program .program-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     max-width: 170px;
     margin-top: 20px;
     gap: 1vw;
   }
+
   #program .program-item img {
     width: 64px;
     height: 64px;
   }
+
   #program .program-item h3 {
     font-size: 1.2vw;
     margin: 0;
   }
+
   #program .program-item p {
     font-size: 1.2vw;
     font-weight: bold;
     margin: 0;
     text-align: center;
   }
+
   #program button {
     margin-left: calc(50% - 135px - 3vw);
     margin-right: calc(50% - 135px - 3vw);
   }
+
   #testimonial span.hr {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: calc(50% - 15px);
     margin-right: calc(50% - 15px);
   }
+
   #testimonial .quote {
     -ms-flex-preferred-size: 44%;
-        flex-basis: 44%;
+    flex-basis: 44%;
   }
+
   #testimonial .quote .quoter h3 {
     font-size: 1.5vw !important;
   }
+
   #testimonial .quote .quoter h4 {
     font-size: 1.2vw !important;
   }
+
   #testimonial .quote .quoter p {
     font-size: 1.2vw !important;
   }
+
   #testimonial .quote.hidden {
     display: flex;
   }
+
   #testimonial button {
     display: none;
   }
+
   #events .cards {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
+
   #events .cards .card h3 {
     font-size: 4vw;
   }
+
   #events .cards .card p {
     font-size: 1.8vw;
   }
 }
-/*# sourceMappingURL=style.css.map */

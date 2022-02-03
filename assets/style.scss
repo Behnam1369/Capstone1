@@ -699,12 +699,13 @@ header.about {
   }
 
   #sponsers {
-    ul{
+    ul {
       li {
         flex-basis: 18%;
       }
     }
   }
+
   #program {
     justify-content: center;
     gap: 5px;
@@ -782,12 +783,13 @@ header.about {
   #events {
     .cards {
       flex-direction: row;
+
       .card {
-        h3{
+        h3 {
           font-size: 4vw;
         }
 
-        p{
+        p {
           font-size: 1.8vw;
         }
       }
