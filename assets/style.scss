@@ -39,7 +39,7 @@ header {
   padding: 5%;
 
   .bg1-overlay {
-    width: 100vw;
+    width: 100%;
     background-image: url(../images/mobile-bg.png), linear-gradient(to bottom, #f7f7f7ba, #f7f7f7 50%);
     height: 100vw;
     position: absolute;
@@ -269,17 +269,14 @@ footer {
   div {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+    font-size: 3vw;
   }
 
   img {
-    width: 3vw;
-    height: 3vw;
-  }
-
-  span {
-    font-size: 3vw;
-    vertical-align: bottom;
+    width: 2.8vw;
+    height: 2.8vw;
+    margin-right: 10px;
   }
 }
 
@@ -319,6 +316,7 @@ header.about {
     font-family: Lato, sans-serif;
     width: 90%;
     text-align: center;
+    font-size: 4vw;
   }
 
   img {
@@ -383,6 +381,7 @@ header.about {
     justify-content: center;
     padding-left: 0;
     gap: 2vw;
+    align-items: baseline;
     filter: grayscale(1) invert(0.7411764705882353);
 
     li {
@@ -499,6 +498,7 @@ header.about {
         font-weight: normal;
         text-align: center;
         width: 100%;
+        margin: 0;
       }
 
       p {
@@ -508,6 +508,7 @@ header.about {
         color: #fff;
         text-align: center;
         width: 100%;
+        margin: 0;
       }
     }
   }
@@ -691,6 +692,20 @@ header.about {
     }
   }
 
+  #logo {
+    p {
+      font-size: 2vw;
+    }
+  }
+
+  #sponsers {
+    ul {
+      li {
+        flex-basis: 18%;
+      }
+    }
+  }
+
   #program {
     justify-content: center;
     gap: 5px;
@@ -768,12 +783,16 @@ header.about {
   #events {
     .cards {
       flex-direction: row;
-    }
-  }
 
-  footer {
-    span {
-      font-size: 1.5vw;
+      .card {
+        h3 {
+          font-size: 4vw;
+        }
+
+        p {
+          font-size: 1.8vw;
+        }
+      }
     }
   }
 }
