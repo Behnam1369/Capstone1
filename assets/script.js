@@ -92,7 +92,7 @@ if (program !== null) {
     const programItem = document.createElement('div');
     programItem.classList.add('program-item');
     programItem.innerHTML =
-      `<img src="../images/` + el.img + `" />
+      `<img src="/images/` + el.img + `" />
         <h3>`+ el.title + `</h3>
         <p>`+ el.description + `</p>`;
     program.appendChild(programItem);
